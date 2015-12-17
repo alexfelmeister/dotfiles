@@ -6,8 +6,7 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/MacOS/bin
 # Set CLICOLOR if you want Ansi Colors in iTerm2
 export CLICOLOR=1
 #
-# # Set colors to match iTerm2 Terminal Colors
-export GOPATH=/Users/felmeistera/Projects
+export GOPATH=/Users/felmeistera/go
 export GOROOT=/usr/local/opt/go/libexec
 
 #oracle
@@ -19,4 +18,4 @@ export DYLD_LIBRARY_PATH="/usr/local/lib/instantclient_11_2"
 SQLPATH="$ORACLE_HOME"
 export SQLPATH
 export CLASSPATH=$HOME/lib
-export PATH="$PATH:$ORACLEH_HOME"
+export PATH="$GOPATH/bin:$PATH:$ORACLE_HOME"

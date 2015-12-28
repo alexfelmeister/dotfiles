@@ -19,3 +19,8 @@ SQLPATH="$ORACLE_HOME"
 export SQLPATH
 export CLASSPATH=$HOME/lib
 export PATH="$GOPATH/bin:$PATH:$ORACLE_HOME"
+
+# Mongodb
+export MONGO_PATH=/usr/local/mongodb
+export PATH=$PATH:$MONGO_PATH/bin
+
